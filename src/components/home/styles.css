@@ -1,0 +1,43 @@
+.rootContainer {
+    display: flex;
+    flex-direction: row;
+    height : 100vh;
+    flex: 5
+}
+
+.rootSideBar {
+    flex: 1;
+    background-color: aquamarine;
+}
+
+.rootHomeContainer {
+    flex: 4;
+    background-color: rgb(26, 44, 38);
+}
+
+/* sidebar style */
+.s_title {
+    cursor: pointer;
+    text-align: center;
+}
+.item {
+    text-align: start;
+    margin: 0 1px 1px 0;
+    padding: 10px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    font-size: 10pt;
+}
+
+.item:hover {
+    text-align: start;
+    margin: 0 1px 1px 0;
+    padding: 10px;
+    background-color: cadetblue;
+    cursor: pointer;
+    color: white;
+    font-size: 10pt;
+}
+
+
+/* home container styles */
